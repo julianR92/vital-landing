@@ -4,21 +4,21 @@ import { IHeroSlider } from '../types/hero-slider-t';
 const hero_slider_one: IHeroSlider[] = [
   {
     id: 1,
-    bgImg: '/assets/img/slider/slider-1.png',
+    bgImg: 'assets/img/slider/slider-1.png',
     title: 'Entrena con nosotros',
     subtitle:
       'Centro de acondicionamiento físico para adultos donde combinamos el entrenamiento funcional con el fútbol.',
   },
   {
     id: 2,
-    bgImg: '/assets/img/slider/slider-2.png',
+    bgImg: 'assets/img/slider/slider-2.png',
     title: 'Haz Parte de nuestra familia',
     subtitle:
       'Vitalfut: Tu espacio para mantenerte en forma mientras disfrutas del fútbol',
   },
   {
     id: 3,
-    bgImg: '/assets/img/slider/slider-3.png',
+    bgImg: 'assets/img/slider/slider-3.png',
     title: 'En Vitalfut, cada torneo es una oportunidad para brillar.',
     subtitle:
       'Únete a la competencia y demuestra que puedes ser el próximo campeón',
