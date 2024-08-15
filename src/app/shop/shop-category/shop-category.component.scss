@@ -1,0 +1,58 @@
+.card {
+  width: 100%;
+  max-width: 400px;  /* Tamaño máximo de la tarjeta */
+  aspect-ratio: 16/9;
+  background: #242424;
+  position: relative;
+  display: flex;
+  place-content: center;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 20px;
+
+  h4 {
+    z-index: 1;
+    color: white;
+    font-size: 1.5em;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 200%;
+    background-image: linear-gradient(180deg, rgb(220, 133, 61), rgb(248, 218, 62));
+    height: 200%;
+    animation: rotBGimg 3s linear infinite;
+    transition: all 0.2s linear;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    background: #242424;
+    inset: 5px;
+    border-radius: 15px;
+  }
+}
+
+@keyframes rotBGimg {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Media Queries para adaptar la tarjeta a diferentes tamaños de pantalla */
+@media (max-width: 768px) {
+  .card {
+    max-width: 100%; /* Tamaño máximo reducido en pantallas más pequeñas */
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    max-width: 100%; /* Tamaño máximo reducido aún más para pantallas móviles */
+  }
+}

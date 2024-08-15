@@ -50,7 +50,7 @@ export class HomeOneComponent implements AfterViewInit  {
           el:'.tp-slider-dot'
         },
         autoplay: {
-          delay: 5000, // Tiempo en milisegundos entre cambios de diapositivas
+          delay: 10000, // Tiempo en milisegundos entre cambios de diapositivas
           disableOnInteraction: false,
         },
         navigation: {

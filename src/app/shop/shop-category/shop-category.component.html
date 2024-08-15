@@ -5,15 +5,18 @@
         <div *ngFor="let item of category_data.slice(0, 3)" class="col-xl-4 col-lg-4 col-md-6">
           <div class="banner__item mb-30 p-relative">
             <div class="banner__thumb fix">
-              <a [routerLink]="['/shop']" [queryParams]="{category: utilsService.convertToURL(item.parentTitle)}" class="w-img">
+
+              <!-- <a [routerLink]="['/shop']" [queryParams]="{category: utilsService.convertToURL(item.parentTitle)}" class="w-img">
                 <img [src]="item.img" alt="banner" />
-              </a>
+              </a> -->
+              <div class="card">
+                <h4 class="text-white">{{item.parentTitle}}  <img [src]="getSVGImageUrl(item?.img) " />
+                </h4>
+            </div>
             </div>
             <div class="banner__content p-absolute transition-3">
-              <h5>
-                <a [routerLink]="['/shop']" [queryParams]="{category: utilsService.convertToURL(item.parentTitle)}" [innerHTML]="item.parentTitle"></a>
-              </h5>
-              <a [routerLink]="['/shop']" [queryParams]="{category: utilsService.convertToURL(item.parentTitle)}" class="link-btn">Discover now</a>
+              <h5>                <!-- <a [routerLink]="['/shop']" [queryParams]="{category: utilsService.convertToURL(item.parentTitle)}" [innerHTML]="item.parentTitle"></a> -->
+              </h5>              <!-- <a [routerLink]="['/shop']" [queryParams]="{category: utilsService.convertToURL(item.parentTitle)}" class="link-btn">Discover now</a> -->
             </div>
           </div>
         </div>

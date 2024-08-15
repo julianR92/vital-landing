@@ -538,6 +538,44 @@ p {
 		}
 	}
 }
+.os-btn-6{
+	position: relative;
+	display: inline-block;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 600;
+	height: 50px;
+	line-height: 46px;
+	padding: 0 42px;
+	border: 2px solid $border;
+	color: $white;
+	background: $vital-naranja;
+	z-index: 1;
+	font-size: 12px;
+	& span{
+		color: $theme-color;
+	}
+	&::after{
+		position: absolute;
+		content: '';
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 0;
+		background-color: $vital-negro;
+		z-index: -1;
+	}
+	&:hover{
+		color: $white;
+		border-color: $vital-negro;
+		&::after{
+			height: 100%;
+		}
+		& span{
+			color: $white;
+		}
+	}
+}
 .link-btn{
 	font-size: 12px;
 	color: $black-soft;

@@ -11,17 +11,17 @@ const hero_slider_one: IHeroSlider[] = [
   },
   {
     id: 2,
-    bgImg: '/assets/img/slider/slider-2.jpg',
-    title: 'Think Different &<br /> Do it otherwise',
+    bgImg: '/assets/img/slider/slider-2.png',
+    title: 'Haz Parte de nuestra familia',
     subtitle:
-      'Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.',
+      'Vitalfut: Tu espacio para mantenerte en forma mientras disfrutas del fútbol',
   },
   {
     id: 3,
-    bgImg: '/assets/img/slider/slider-3.jpg',
-    title: 'High Beam<br /> by Tom Chung',
+    bgImg: '/assets/img/slider/slider-3.png',
+    title: 'En Vitalfut, cada torneo es una oportunidad para brillar.',
     subtitle:
-      'High Beam is an adjustable desk or shelf light that offers a wide variety of lighting possibilities',
+      'Únete a la competencia y demuestra que puedes ser el próximo campeón',
   },
 ];
 

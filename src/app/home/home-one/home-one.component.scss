@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+  .tp-slider-dot.tp-swiper-dot {
+    position: absolute;
+    bottom: 10px; /* Ajusta según sea necesario */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+
