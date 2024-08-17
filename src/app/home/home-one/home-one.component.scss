@@ -7,4 +7,36 @@
   }
 }
 
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, #000000, #333333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 20px 0;
+
+  // Adding a subtle shadow for better visibility
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.bg-naranja-vital {
+  background: linear-gradient(135deg, #FFA500, #FF7F00); // Degradado de naranja
+  color: white; // Asegura que el texto sea visible en el fondo
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); // Sombra sutil
+
+}
+
+@media (max-width: 768px) {  // Aplicado en dispositivos móviles y tablets
+  .title {
+    font-size: 2rem; // Cambia el tamaño de la fuente en dispositivos móviles
+  }
+  .img-fluid{
+    margin-top: 15px;
+  }
+}
 

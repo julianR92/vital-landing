@@ -1,4 +1,4 @@
-import { Component, ElementRef, ViewChild, AfterViewInit } from '@angular/core';
+import { Component, ElementRef, ViewChild, AfterViewInit, Input } from '@angular/core';
 import Swiper from 'swiper';
 import { Pagination,EffectFade, Autoplay } from 'swiper/modules';
 import { ProductService } from 'src/app/shared/services/product.service';
@@ -23,6 +23,8 @@ export class HomeOneComponent implements AfterViewInit  {
   public bannerProducts: IProduct[] = [];
   public discountProducts: IProduct[] = [];
   public perView: number = 8;
+  @Input() style_2: boolean = false;
+  @Input() style_3: boolean = false;
 
   constructor(private productService: ProductService) {
     this.productService.products.subscribe((products) => {

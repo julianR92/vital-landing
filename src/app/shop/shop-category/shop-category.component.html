@@ -3,7 +3,7 @@
     <div [ngClass]="[style_2 ? '' : (!style_3 && !style_4 ? 'banner__inner p-relative mt--95 z-index-1' : ''), style_4 ? 'banner__inner-2 p-relative' : '']">
       <div class="row">
         <div *ngFor="let item of category_data.slice(0, 3)" class="col-xl-4 col-lg-4 col-md-6">
-          <div class="banner__item mb-30 p-relative">
+          <div class="banner__item mb-30 p-relative animate__animated animate__pulse">
             <div class="banner__thumb fix">
 
               <!-- <a [routerLink]="['/shop']" [queryParams]="{category: utilsService.convertToURL(item.parentTitle)}" class="w-img">

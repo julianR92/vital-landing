@@ -40,7 +40,55 @@
           <div class="col-xl-12">
               <div class="section__title-wrapper text-center mb-55">
                   <div class="section__title mb-10">
-                      <h2>Trending Products</h2>
+                      <h2>#LaFelicidadSeEntrena</h2>
+                  </div>
+                  <!-- <div class="section__sub-title">
+                      <p>Mirum est notare quam littera gothica quam nunc putamus parum claram!</p>
+                  </div> -->
+              </div>
+          </div>
+      </div>
+
+      <!-- <div class="product__slider">
+        <div class="row">
+          <div *ngFor="let item of trendingProducts.slice(0,perView)" class="col-lg-3 col-md-4">
+            <app-product-item [product]="item"></app-product-item>
+          </div>
+        </div>
+      </div> -->
+
+      <div class="row">
+          <div class="col-xl-12">
+            <div class="card bg-naranja-vital">
+              <div class="card-body">
+                <div class="row">
+                  <h2 class="text-center title">VitalFutClub</h2>
+                  <div class="col-md-6 text-center">
+                    <img src="assets/img/logo/logo-sin-color.png" alt="Descripción de la imagen" class="img-fluid mt-md-0 mt-3" width="55%">
+                  </div>
+                <div class="col-md-6">
+                  <p class="mt-4 text-white" style="font-size: larger; font-size: 18px; text-align: justify; font-style: italic;" >Somos un centro de acondicionamiento físico para adultos donde combinamos el entrenamiento funcional con el fútbol para potenciar tu rendimiento fisico y transformar tu bienestar . </p>
+                  <a routerLink="/" class="os-btn os-btn-7 rounded mt-4 text-center ">Inscríbete Ya</a>
+                </div>
+              </div>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+              <!-- <div class="product__load-btn text-center mt-25">
+                  <a *ngIf="perView < trendingProducts.length" (click)="handlePerView()" class="os-btn os-btn-3 cursor-pointer">Load More</a>
+              </div> -->
+          </div>
+      </div>
+  </div>
+</section>
+<!-- blog area start -->
+<section class="blog__area pb-70">
+  <div class="container">
+      <div class="row">
+          <div class="col-xl-12">
+              <div class="section__title-wrapper text-center mb-55">
+                  <div class="section__title mb-10">
+                      <h2>Nuestras Sedes</h2>
                   </div>
                   <div class="section__sub-title">
                       <p>Mirum est notare quam littera gothica quam nunc putamus parum claram!</p>
@@ -48,20 +96,9 @@
               </div>
           </div>
       </div>
-
-      <div class="product__slider">
-        <div class="row">
-          <div *ngFor="let item of trendingProducts.slice(0,perView)" class="col-lg-3 col-md-4">
-            <app-product-item [product]="item"></app-product-item>
-          </div>
-        </div>
-      </div>
-
       <div class="row">
           <div class="col-xl-12">
-              <div class="product__load-btn text-center mt-25">
-                  <a *ngIf="perView < trendingProducts.length" (click)="handlePerView()" class="os-btn os-btn-3 cursor-pointer">Load More</a>
-              </div>
+              <app-blog-slider></app-blog-slider>
           </div>
       </div>
   </div>
@@ -69,7 +106,7 @@
 <!-- product area end -->
 
 <!-- product banner area start -->
-<app-product-banner></app-product-banner>
+<!-- <app-product-banner></app-product-banner> -->
 <!-- product banner area end -->
 
 <!-- sale off area start -->
@@ -110,28 +147,7 @@
  </section>
 <!-- client slider area end -->
 
-<!-- blog area start -->
-<section class="blog__area pb-70">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-12">
-                <div class="section__title-wrapper text-center mb-55">
-                    <div class="section__title mb-10">
-                        <h2>Our Blog Posts</h2>
-                    </div>
-                    <div class="section__sub-title">
-                        <p>Mirum est notare quam littera gothica quam nunc putamus parum claram!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xl-12">
-                <app-blog-slider></app-blog-slider>
-            </div>
-        </div>
-    </div>
-</section>
+
 <!-- blog area end -->
 
 <!-- subscribe area start -->

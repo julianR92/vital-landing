@@ -19,27 +19,27 @@ const category_data:ICategoryType[] = [
     parentTitle: "Disciplina",
     children:['Clothing','Oil']
   },
-  // {
-  //   id: 4,
-  //   img: '/assets/img/shop/banner/02/banner-1.webp',
-  //   parentTitle: "FASHION FOR MEN’S",
-  //   children:['Shirt'],
-  //   smDesc:"Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum."
-  // },
-  // {
-  //   id: 5,
-  //   img: '/assets/img/shop/banner/02/banner-2.webp',
-  //   parentTitle: "FASHION FOR WOMEN’S",
-  //   children:['Shoes'],
-  //   smDesc:"Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum."
-  // },
-  // {
-  //   id: 6,
-  //   img: '/assets/img/shop/banner/02/banner-3.webp',
-  //   parentTitle: "FASHION FOR BABY",
-  //   children:['Shoes'],
-  //   smDesc:"Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum."
-  // },
+  {
+    id: 4,
+    img: '<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 14 14"><path fill="#08ba34" fill-rule="evenodd" d="M9.51 1.374a.75.75 0 0 0-1.29-.016L4.28 7.79L2.903 5.71a.75.75 0 0 0-.626-.336H.76a.75.75 0 0 0 0 1.5h1.115L3.678 9.6a.75.75 0 0 0 1.265-.022l3.899-6.364l1.394 2.41a.75.75 0 0 0 1.299-.751l-2.026-3.5Zm.818 6.965c-.454-.4-.937-.618-1.422-.657a1.98 1.98 0 0 0-1.559.582c-.76.748-1.012 2.13-.042 3.096l.017.015l2.662 2.42a.5.5 0 0 0 .673 0l2.662-2.42l.01-.01c.978-.941.736-2.317-.016-3.065a1.994 1.994 0 0 0-1.552-.593c-.485.033-.972.241-1.433.632" clip-rule="evenodd"/></svg>',
+    parentTitle: "Bienestar",
+    children:['Shirt'],
+    smDesc:"Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum."
+  },
+  {
+    id: 5,
+    img: '<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 128 128"><radialGradient id="notoPeopleHugging0" cx="71.353" cy="54.761" r="41.042" gradientTransform="rotate(3.865 250.515 86.799)" gradientUnits="userSpaceOnUse"><stop offset=".47" stop-color="#42A5F5"/><stop offset="1" stop-color="#FCE8B2"/></radialGradient><path fill="url(#notoPeopleHugging0)" d="M82.58 5.72c-10.59-.71-27.85 9.87-23.63 34.9c2.61 15.47 12.62 23.12 19.68 23.6s18.01-5.76 22.68-20.74c7.54-24.23-8.14-37.05-18.73-37.76"/><linearGradient id="notoPeopleHugging1" x1="75.601" x2="66.573" y1="30.528" y2="114.104" gradientUnits="userSpaceOnUse"><stop offset=".128" stop-color="#FCE8B2"/><stop offset=".64" stop-color="#42A5F5"/></linearGradient><path fill="url(#notoPeopleHugging1)" d="M117.94 83.27c-4.15-16.61-16.84-25.96-30.58-27.66c-5.48-.68-11.04-.92-16.48.01c-1.27.22-2.7.82-3.97.86c-.98.03-32.26-12.01-33.57-12.46C29.68 42.73 22.17 43 19.17 51c-3.93 10.47 12 18 35 36l-.94 37h66.79s1.08-28.09-2.08-40.73"/><linearGradient id="notoPeopleHugging2" x1="28.109" x2="63.83" y1="135.296" y2="46.551" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0D47A1"/><stop offset=".679" stop-color="#1976D2"/></linearGradient><path fill="url(#notoPeopleHugging2)" d="M89.17 70c-3-5-9.75-1.11-12 1c-16 15-19.7 17.19-22.96 15.43c-.99-.53-2.94-1.91-8.22-5.99S22.17 62 22.17 62c-18 15-13.96 62-13.96 62h45.02l.81-14.92c5.68.91 9.99-1.04 14.12-4.08c7.61-5.62 13.02-10.7 18-19c3.01-5 6.01-11 3.01-16"/><radialGradient id="notoPeopleHugging3" cx="45.628" cy="49.205" r="46.585" gradientTransform="rotate(-22.626 44.006 45.518)" gradientUnits="userSpaceOnUse"><stop offset=".527" stop-color="#1565C0"/><stop offset="1" stop-color="#FADA80"/></radialGradient><path fill="url(#notoPeopleHugging3)" d="M39.45 7.91c-9.8 4.08-20.53 21.26-5.58 41.78c9.23 12.68 21.61 15.06 28.14 12.34s13.55-13.19 11.05-28.67C69 8.3 49.25 3.83 39.45 7.91"/><path fill="#1976D2" d="M103.75 60.18S93.18 67 89.18 60c-3.58-6.26 7.1-12.75 7.1-12.75c3.11-1.79 7.23-1.56 9.56 2.53c2.79 4.89 1.02 8.61-2.09 10.4"/></svg>',
+    parentTitle: "Trabajo en equipo",
+    children:['Shoes'],
+    smDesc:"Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum."
+  },
+  {
+    id: 6,
+    img: '<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 36 36"><path fill="#FFAC33" d="M5.123 5h6C12.227 5 13 4.896 13 6V4c0-1.104-.773-2-1.877-2h-8c-2 0-3.583 2.125-3 5c0 0 1.791 9.375 1.917 9.958C2.373 18.5 4.164 20 6.081 20h6.958c1.105 0-.039-1.896-.039-3v-2c0 1.104-.773 2-1.877 2h-4c-1.104 0-1.833-1.042-2-2S3.539 7.667 3.539 7.667C3.206 5.75 4.018 5 5.123 5m25.812 0h-6C23.831 5 22 4.896 22 6V4c0-1.104 1.831-2 2.935-2h8c2 0 3.584 2.125 3 5c0 0-1.633 9.419-1.771 10c-.354 1.5-2.042 3-4 3h-7.146C21.914 20 22 18.104 22 17v-2c0 1.104 1.831 2 2.935 2h4c1.104 0 1.834-1.042 2-2s1.584-7.333 1.584-7.333C32.851 5.75 32.04 5 30.935 5M20.832 22c0-6.958-2.709 0-2.709 0s-3-6.958-3 0s-3.291 10-3.291 10h12.292c-.001 0-3.292-3.042-3.292-10"/><path fill="#FFCC4D" d="M29.123 6.577c0 6.775-6.77 18.192-11 18.192s-11-11.417-11-18.192c0-5.195 1-6.319 3-6.319c1.374 0 6.025-.027 8-.027l7-.001c2.917-.001 4 .684 4 6.347"/><path fill="#C1694F" d="M27 33c0 1.104.227 2-.877 2h-16C9.018 35 9 34.104 9 33v-1c0-1.104 1.164-2 2.206-2h13.917c1.042 0 1.877.896 1.877 2z"/><path fill="#C1694F" d="M29 34.625c0 .76.165 1.375-1.252 1.375H8.498C7.206 36 7 35.385 7 34.625v-.25C7 33.615 7.738 33 8.498 33h19.25c.759 0 1.252.615 1.252 1.375z"/></svg>',
+    parentTitle: "Competencia",
+    children:['Shoes'],
+    smDesc:"Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum."
+  },
 ]
 
 export default category_data;
