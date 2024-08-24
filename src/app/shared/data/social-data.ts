@@ -6,25 +6,25 @@ export type ISocial =  {
 
 const social_links:ISocial[] = [
   {
-    link: "http://facebook.com",
+    link: "https://www.facebook.com/vitalfutclub?mibextid=ZbWKwL",
     icon: "fab fa-facebook-f",
-    name: "Facebook",
+    name: "VitalFutClub",
   },
   {
-    link: "http://twitter.com",
-    icon: "fab fa-twitter",
-    name: "Twitter",
+    link: "https://www.instagram.com/vitalfutclub?igsh=MW96YjQ4NWx3aDVzbw==",
+    icon: "fab fa-instagram",
+    name: "VitalFutClub",
   },
-  {
-    link: "https://www.behance.net/",
-    icon: "fab fa-behance",
-    name: "Behance",
-  },
-  {
-    link: "https://dribbble.com/",
-    icon: "fab fa-dribbble",
-    name: "Dribbble",
-  },
+  // {
+  //   link: "https://www.behance.net/",
+  //   icon: "fab fa-behance",
+  //   name: "Behance",
+  // },
+  // {
+  //   link: "https://dribbble.com/",
+  //   icon: "fab fa-dribbble",
+  //   name: "Dribbble",
+  // },
 ]
 
 export default social_links;

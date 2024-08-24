@@ -9,4 +9,9 @@ import social_links, { ISocial } from '../../data/social-data';
 export class FooterOneComponent {
   @Input() box_style: Boolean = false;
   public social_links: ISocial[] = social_links;
+  currentDate: Date;
+
+  constructor(){
+    this.currentDate = new Date();
+  }
 }

@@ -7,10 +7,10 @@
   <div class="blog__content">
       <h4><a [routerLink]="['/pages/blog-details', blog.id]">{{blog.title}}</a></h4>
       <div class="blog__meta">
-          <span>By <a href="#">{{blog.author}}</a></span>
-          <span>/ {{blog.date}}</span>
+          <span><a href="#">{{blog.author}}</a></span>
+          <span> <i class="fal fa-map-marker-alt"></i>  {{blog.date}}</span>
       </div>
-      <p>Mirum est notare quam littera gothica, quam nunc putamus parum claram.</p>
-      <a [routerLink]="['/pages/blog-details', blog.id]" class="os-btn">read more</a>
+      <p style="text-align: text-justify">{{blog.desc}}.</p>
+      <!-- <a [routerLink]="['/pages/blog-details', blog.id]" class="os-btn">read more</a> -->
   </div>
 </div>
