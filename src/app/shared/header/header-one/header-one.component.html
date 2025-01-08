@@ -4,16 +4,14 @@
     <div [ngClass]="header_big ? 'container-fluid' : 'container'">
       <div class="row align-items-center">
         <div
-          [ngClass]="header_big ? 'col-xl-2 col-lg-2 col-md-4 col-sm-4 col-12' : 'col-xl-3 col-lg-3 col-md-4 col-sm-4'">
-          <div class="logo">
-            <a routerLink="/home/vital">
-              <img src="assets/img/logo/vital fut.png" alt="logo" width="55%">
-            </a>
-          </div>
+          [ngClass]="header_big ? 'col-xl-2 col-lg-2 col-md-4 col-sm-4 col-12' : 'col-xl-2 col-lg-2 col-md-2 col-sm-2 text-center'">
+				 <a routerLink="/home/vital">
+					<img src="assets/img/logo/logo-vital.jpg" class="rounded-circle p-1" alt="logo" width="70%" height="auto">
+				 </a>
         </div>
 
         <div
-          [ngClass]="header_big ? 'col-xl-7 col-lg-6 col-md-2 col-sm-1 col-2' : 'col-xl-9 col-lg-9 col-md-8 col-sm-8'">
+          [ngClass]="header_big ? 'col-xl-7 col-lg-6 col-md-2 col-sm-1 col-2' : 'col-xl-10 col-lg-10 col-md-10 col-sm-10'">
           <div class="header__right p-relative"
             [ngClass]="{'d-flex justify-content-between align-items-center': !header_big}">
             <div [ngClass]="{'main-menu': true, 'main-menu-2': header_big, 'text-center': header_big, 'd-none d-lg-block': true}">

@@ -8,7 +8,6 @@ import { HeroSliderData } from 'src/app/shared/data/hero-slider-data';
 
 Swiper.use([Pagination, EffectFade]);
 
-
 @Component({
   selector: 'app-home-one',
   templateUrl: './home-one.component.html',
